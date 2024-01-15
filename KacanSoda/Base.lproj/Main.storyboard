@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ivH-jb-rfy">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KacanSoda" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sade" translatesAutoresizingMaskIntoConstraints="NO" id="Viu-uJ-ghu" userLabel="soda1">
+                                <rect key="frame" x="24" y="221" width="80" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sade" translatesAutoresizingMaskIntoConstraints="NO" id="Pgf-XR-qiE" userLabel="soda2">
+                                <rect key="frame" x="24" y="329" width="80" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sade" translatesAutoresizingMaskIntoConstraints="NO" id="Zmt-9u-wX3" userLabel="soda3">
+                                <rect key="frame" x="288" y="221" width="80" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sade" translatesAutoresizingMaskIntoConstraints="NO" id="Kcc-hP-yuI" userLabel="soda4">
+                                <rect key="frame" x="200" y="221" width="80" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sade" translatesAutoresizingMaskIntoConstraints="NO" id="SpT-qH-dwT" userLabel="soda5">
+                                <rect key="frame" x="112" y="221" width="80" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sade" translatesAutoresizingMaskIntoConstraints="NO" id="K3h-1M-aDv" userLabel="soda6">
+                                <rect key="frame" x="112" y="329" width="80" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sade" translatesAutoresizingMaskIntoConstraints="NO" id="6a6-op-6Yc" userLabel="soda7">
+                                <rect key="frame" x="288" y="329" width="80" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sade" translatesAutoresizingMaskIntoConstraints="NO" id="Nbs-lY-Fbo" userLabel="soda8">
+                                <rect key="frame" x="24" y="437" width="80" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sade" translatesAutoresizingMaskIntoConstraints="NO" id="i2B-Ax-fpT" userLabel="soda9">
+                                <rect key="frame" x="200" y="329" width="80" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sade" translatesAutoresizingMaskIntoConstraints="NO" id="JUa-kH-x5u" userLabel="soda10">
+                                <rect key="frame" x="288" y="437" width="80" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sade" translatesAutoresizingMaskIntoConstraints="NO" id="MBT-o9-cZ5" userLabel="soda11">
+                                <rect key="frame" x="200" y="545" width="80" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sade" translatesAutoresizingMaskIntoConstraints="NO" id="Jkc-VG-gDM" userLabel="soda13">
+                                <rect key="frame" x="112" y="545" width="80" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sade" translatesAutoresizingMaskIntoConstraints="NO" id="yzS-sh-WKU" userLabel="soda14">
+                                <rect key="frame" x="24" y="545" width="80" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sade" translatesAutoresizingMaskIntoConstraints="NO" id="aQv-i6-YtK" userLabel="soda15">
+                                <rect key="frame" x="200" y="437" width="80" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sade" translatesAutoresizingMaskIntoConstraints="NO" id="Bfm-sx-Oev" userLabel="soda16">
+                                <rect key="frame" x="112" y="437" width="80" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sade" translatesAutoresizingMaskIntoConstraints="NO" id="m04-q2-BGW" userLabel="soda12">
+                                <rect key="frame" x="288" y="545" width="80" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="268" translatesAutoresizingMaskIntoConstraints="NO" id="B5d-LE-d6f">
+                                <rect key="frame" x="63" y="59" width="267" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score : 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="268" translatesAutoresizingMaskIntoConstraints="NO" id="rcW-Zf-OvV">
+                                <rect key="frame" x="63" y="143" width="267" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Highscore:0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="268" translatesAutoresizingMaskIntoConstraints="NO" id="xBS-59-mNe">
+                                <rect key="frame" x="24" y="669" width="344" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="h1r-nu-bTL"/>
+                    <connections>
+                        <outlet property="highscorelabel" destination="xBS-59-mNe" id="SSd-SY-Upp"/>
+                        <outlet property="score" destination="rcW-Zf-OvV" id="3It-Rx-rgd"/>
+                        <outlet property="sise1" destination="Viu-uJ-ghu" id="Y6n-nH-Q25"/>
+                        <outlet property="sise10" destination="Bfm-sx-Oev" id="pb2-TG-iYB"/>
+                        <outlet property="sise11" destination="aQv-i6-YtK" id="P7D-WG-2oj"/>
+                        <outlet property="sise12" destination="JUa-kH-x5u" id="2bs-YU-hYm"/>
+                        <outlet property="sise13" destination="yzS-sh-WKU" id="ArW-A7-4Jo"/>
+                        <outlet property="sise14" destination="Jkc-VG-gDM" id="vVJ-yG-6am"/>
+                        <outlet property="sise15" destination="MBT-o9-cZ5" id="dzd-Jh-bAu"/>
+                        <outlet property="sise16" destination="m04-q2-BGW" id="56m-QX-kCb"/>
+                        <outlet property="sise2" destination="SpT-qH-dwT" id="jZ8-hi-gfl"/>
+                        <outlet property="sise3" destination="Kcc-hP-yuI" id="AYd-wV-XNn"/>
+                        <outlet property="sise4" destination="Zmt-9u-wX3" id="JOn-tm-Cew"/>
+                        <outlet property="sise5" destination="Pgf-XR-qiE" id="265-fz-yEx"/>
+                        <outlet property="sise6" destination="K3h-1M-aDv" id="uyW-qB-IMq"/>
+                        <outlet property="sise7" destination="i2B-Ax-fpT" id="0Hq-kN-QTb"/>
+                        <outlet property="sise8" destination="6a6-op-6Yc" id="R8N-80-KkC"/>
+                        <outlet property="sise9" destination="Nbs-lY-Fbo" id="EJt-r8-Vrk"/>
+                        <outlet property="zaman" destination="B5d-LE-d6f" id="Cr9-wg-47I"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1214.5038167938931" y="-2.1126760563380285"/>
+        </scene>
+        <!--Giris View Controller-->
+        <scene sceneID="fCO-HN-aIL">
+            <objects>
+                <viewController id="qgf-ao-PwL" customClass="GirisViewController" customModule="KacanSoda" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MHm-u0-WbA">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Od8-BM-u9a">
+                                <rect key="frame" x="88" y="371" width="217" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.0" green="0.57876932989690721" blue="0.023837505103679678" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Başla">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="39"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="0DC-Zb-m2s"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="esF-zc-a1R"/>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ngq-lM-AxM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ehU-KM-2hX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="319.84732824427482" y="-2.1126760563380285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Jc8-3k-Oxy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ivH-jb-rfy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Fjb-nF-7vY">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qgf-ao-PwL" kind="relationship" relationship="rootViewController" id="d2s-Q4-MF4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xVn-ym-zKv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-605.3435114503817" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sade" width="440" height="586"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
